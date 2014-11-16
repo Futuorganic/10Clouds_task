@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>10Clouds</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div id="banner"><img src="img/10Clouds-photo.jpg" alt="10Clouds photos">
+            </div>
+            <div id="header">
+                <p>In <i>10Clouds</i> it is all about sharing your ideas and experience</p>
+                <hr>
+                <p>Please share your ideas and leave us<br/> some note</p>
+            </div>
+            <div id="form">
+                <form name="myForm" action="URL" onsubmit="return validateForm()" method="post">
+                    <input class="text-field" name="formComment" type="text" placeholder="Start typing here..." required>
+                    <div class="button">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!--  for Safari (because doesn't support HTML5 <input> required attribute)-->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
